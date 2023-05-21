@@ -344,10 +344,8 @@ hr {
     background-repeat: no-repeat;
     background-size: contain; }
   .tile.tile-2 .tile-inner {
-    color: #f9f6f2;
-    background-color: #edc22e;
-    background-image: url("images/2048.png");
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);  }
+    background-color: #f9f6f2;
+    background-image: url("images/2.png"); }
   .tile.tile-4 .tile-inner {
     background-color: #ede0c8;
     background-image: url("images/4.png");
