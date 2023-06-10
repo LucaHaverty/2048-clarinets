@@ -372,52 +372,34 @@ hr {
     background-image: url("images/128.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
      }
-    @media screen and (max-width: 520px) {
-      .tile.tile-128 .tile-inner {
-         } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background-color: #edcc61;
     background-image: url("images/256.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
      }
-    @media screen and (max-width: 520px) {
-      .tile.tile-256 .tile-inner {
-         } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background-color: #edc850;
     background-image: url("images/512.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
      }
-    @media screen and (max-width: 520px) {
-      .tile.tile-512 .tile-inner {
-         } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
     background-color: #edc53f;
     background-image: url("images/1024.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
      }
-    @media screen and (max-width: 520px) {
-      .tile.tile-1024 .tile-inner {
-         } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background-color: #edc22e;
     background-image: url("images/2048.png");
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
      }
-    @media screen and (max-width: 520px) {
-      .tile.tile-2048 .tile-inner {
-         } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background-color: #3c3a32;
      }
-    @media screen and (max-width: 520px) {
-      .tile.tile-super .tile-inner {
-         } }
 
 @-webkit-keyframes appear {
   0% {
@@ -773,9 +755,6 @@ hr {
     -moz-transform: translate(202px, 202px);
     -ms-transform: translate(202px, 202px);
     transform: translate(202px, 202px); }
-
-  .tile .tile-inner {
-    font-size: 35px; }
 
   .game-message p {
     font-size: 30px !important;
